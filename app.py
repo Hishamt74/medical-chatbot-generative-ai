@@ -16,8 +16,8 @@ load_dotenv()
 PINECONE_API_KEY=os.environ.get('PINECONE_API_KEY')
 GROQ_API_KEY=os.environ.get('GROQ_API_KEY')
 
-os.environ["PINECONE_API_KEY"]="pcsk_5NDFLe_Cu9zcfCtfKuCPqqR3psruMY2WiAg9jahysSpe8ABmJ55zKR5761nPpzFtUV6Tq1"
-os.environ['GROQ_API_KEY'] = "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"
+os.environ["PINECONE_API_KEY"]="PINECONE_API_KEY"
+os.environ['GROQ_API_KEY'] = "GROQ_API_KEY"
 
 embeddings = download_hugging_face_embeddings()
 
